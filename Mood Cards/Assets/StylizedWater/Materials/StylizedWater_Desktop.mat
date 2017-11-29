@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StylizedWater_Desktop
+  m_Shader: {fileID: 4800000, guid: 86282aca396e36c47943004c99dcacfd, type: 3}
+  m_ShaderKeywords: _EMISSION _USEINTERSECTIONHIGHLIGHT_ON _WORLDSPACETILING_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Normals:
+        m_Texture: {fileID: 947374229, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 8900000, guid: 498ed13c92bd1f14581733c7441bf115, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shadermap:
+        m_Texture: {fileID: -1511549886, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Depth: 9.3
+    - _Depthdarkness: 0.425
+    - _Fresnelexponent: 10
+    - _Glossiness: 0.42
+    - _HighlightPanning: 0
+    - _RefractionAmount: 0.047
+    - _RimDistance: 0
+    - _RimSize: 0.71
+    - _Rimfalloff: 0.05
+    - _Rimtiling: 1.5
+    - _SurfaceHighlight: 0.035
+    - _SurfaceHightlighttiling: 0.25
+    - _Surfacehightlightsize: 0
+    - _Tiling: 0.74
+    - _Transparency: 0.56
+    - _UseIntersectionHighlight: 0
+    - _Wavesspeed: 0.98
+    - _Wavesstrength: 0.387
+    - _Wavetint: 0.43
+    - _Worldspacetiling: 1
+    m_Colors:
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _RimColor: {r: 0.60294116, g: 1, b: 0.6878296, a: 1}
+    - _WaterColor: {r: 0.43396556, g: 0.95315576, b: 1, a: 1}

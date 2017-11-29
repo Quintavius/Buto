@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1542693540030446}
+  m_IsPrefabParent: 1
+--- !u!1 &1542693540030446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4012828571227246}
+  - component: {fileID: 114674321547862398}
+  - component: {fileID: 114306703281136492}
+  - component: {fileID: 114893390509676700}
+  m_Layer: 0
+  m_Name: Scene Manager Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4012828571227246
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542693540030446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 493.07306, y: 279.7873, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114306703281136492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542693540030446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208ae9d8c00d3eb4c9a9bbe2edfb57a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LastScene: 
+  LoadingCanvas: {fileID: 0}
+  FadeImage: {fileID: 0}
+  alpha: 0
+--- !u!114 &114674321547862398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542693540030446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a71bd08f4a05643abdcd315e74bc11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingAnimation: {fileID: 0}
+  fadeOutTexture: {fileID: 2800000, guid: a3477729ff8953349bdc69fdd886a3ec, type: 3}
+  fadeSpeed: 1
+--- !u!114 &114893390509676700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542693540030446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f7c4cb00ef97647b2afb975f741317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

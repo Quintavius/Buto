@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 4a3f2cf988b92b540a9715fc84b2f43b
+timeCreated: 1496974711
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BuildingStick
+    100004: Cube
+    100006: Cube.000
+    100008: Door
+    100010: Plane
+    100012: PlasterWall_Corner_L
+    100014: PlasterWall_Corner_R
+    100016: PlasterWall_Rect
+    100018: PlasterWall_Square
+    100020: PlasterWall_Square_Plain
+    100022: PlasterWall_Square_RockBottom
+    100024: PlasterWall_Triangle
+    100026: PlasterWall_Triangle_Blank
+    100028: PlasterWall_TriangleHalf_Left
+    100030: PlasterWall_TriangleHalf_Right
+    100032: RoofSlanted
+    100034: StoneWall
+    100036: Sun
+    100038: Window
+    100040: Window_Blinds
+    100042: WoodPlank
+    400000: //RootNode
+    400002: BuildingStick
+    400004: Cube
+    400006: Cube.000
+    400008: Door
+    400010: Plane
+    400012: PlasterWall_Corner_L
+    400014: PlasterWall_Corner_R
+    400016: PlasterWall_Rect
+    400018: PlasterWall_Square
+    400020: PlasterWall_Square_Plain
+    400022: PlasterWall_Square_RockBottom
+    400024: PlasterWall_Triangle
+    400026: PlasterWall_Triangle_Blank
+    400028: PlasterWall_TriangleHalf_Left
+    400030: PlasterWall_TriangleHalf_Right
+    400032: RoofSlanted
+    400034: StoneWall
+    400036: Sun
+    400038: Window
+    400040: Window_Blinds
+    400042: WoodPlank
+    2300000: //RootNode
+    2300002: BuildingStick
+    2300004: Cube
+    2300006: Cube.000
+    2300008: Door
+    2300010: Plane
+    2300012: PlasterWall_Corner_L
+    2300014: PlasterWall_Corner_R
+    2300016: PlasterWall_Rect
+    2300018: PlasterWall_Square
+    2300020: PlasterWall_Square_Plain
+    2300022: PlasterWall_Square_RockBottom
+    2300024: PlasterWall_Triangle
+    2300026: PlasterWall_Triangle_Blank
+    2300028: PlasterWall_TriangleHalf_Left
+    2300030: PlasterWall_TriangleHalf_Right
+    2300032: RoofSlanted
+    2300034: StoneWall
+    2300036: Window
+    2300038: Window_Blinds
+    2300040: WoodPlank
+    3300000: //RootNode
+    3300002: BuildingStick
+    3300004: Cube
+    3300006: Cube.000
+    3300008: Door
+    3300010: Plane
+    3300012: PlasterWall_Corner_L
+    3300014: PlasterWall_Corner_R
+    3300016: PlasterWall_Rect
+    3300018: PlasterWall_Square
+    3300020: PlasterWall_Square_Plain
+    3300022: PlasterWall_Square_RockBottom
+    3300024: PlasterWall_Triangle
+    3300026: PlasterWall_Triangle_Blank
+    3300028: PlasterWall_TriangleHalf_Left
+    3300030: PlasterWall_TriangleHalf_Right
+    3300032: RoofSlanted
+    3300034: StoneWall
+    3300036: Window
+    3300038: Window_Blinds
+    3300040: WoodPlank
+    4300000: Window_Blinds
+    4300002: Window
+    4300004: Door
+    4300006: WoodPlank
+    4300008: Plane
+    4300010: PlasterWall_TriangleHalf_Right
+    4300012: PlasterWall_TriangleHalf_Left
+    4300014: BuildingStick
+    4300016: PlasterWall_Triangle_Blank
+    4300018: RoofSlanted
+    4300020: Cube
+    4300022: Cube.000
+    4300024: StoneWall
+    4300026: PlasterWall_Square_RockBottom
+    4300028: PlasterWall_Square_Plain
+    4300030: PlasterWall_Corner_R
+    4300032: PlasterWall_Corner_L
+    4300034: PlasterWall_Rect
+    4300036: PlasterWall_Triangle
+    4300038: PlasterWall_Square
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeaceStump
+    second: {fileID: 2100000, guid: d531ac836bb25354787518a9635600d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SubtleRawWood
+    second: {fileID: 2100000, guid: aa64c2bb3f6e36246ad7477a267d4781, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

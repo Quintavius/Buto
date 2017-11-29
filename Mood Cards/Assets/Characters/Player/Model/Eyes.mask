@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Eyes
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Player_Arm_Object
+    m_Weight: 0
+  - m_Path: Player_Low_Mp
+    m_Weight: 0
+  - m_Path: Player_Skeleton
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_3
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_4
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_5
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_6
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_7
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_8
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_9
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_10
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_11
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_12
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_13
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_14
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_15
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_16
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_17
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_18
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_19
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_20
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_1_1
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_1_1/Claw_Pipe_1_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_1_1/Claw_Pipe_1_2/Claw_Pipe_1_3
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_1_1/Claw_Pipe_1_2/Claw_Pipe_1_3/Claw_Pipe_1_4
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_1_1/Claw_Pipe_1_2/Claw_Pipe_1_3/Claw_Pipe_1_4/Claw_Pipe_1_5
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_1_1/Claw_Pipe_1_2/Claw_Pipe_1_3/Claw_Pipe_1_4/Claw_Pipe_1_5/Claw_Pipe_1_end
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_2_1
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_2_1/Claw_Pipe_2_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_2_1/Claw_Pipe_2_2/Claw_Pipe_2_3
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_2_1/Claw_Pipe_2_2/Claw_Pipe_2_3/Claw_Pipe_2_4
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_2_1/Claw_Pipe_2_2/Claw_Pipe_2_3/Claw_Pipe_2_4/Claw_Pipe_2_5
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_2_1/Claw_Pipe_2_2/Claw_Pipe_2_3/Claw_Pipe_2_4/Claw_Pipe_2_5/Claw_Pipe_2_end
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_3_1
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_3_1/Claw_Pipe_3_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_3_1/Claw_Pipe_3_2/Claw_Pipe_3_3
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_3_1/Claw_Pipe_3_2/Claw_Pipe_3_3/Claw_Pipe_3_4
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_3_1/Claw_Pipe_3_2/Claw_Pipe_3_3/Claw_Pipe_3_4/Claw_Pipe_3_5
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_3_1/Claw_Pipe_3_2/Claw_Pipe_3_3/Claw_Pipe_3_4/Claw_Pipe_3_5/Claw_Pipe_3_end
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_4_1
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_4_1/Claw_Pipe_4_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_4_1/Claw_Pipe_4_2/Claw_Pipe_4_3
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_4_1/Claw_Pipe_4_2/Claw_Pipe_4_3/Claw_Pipe_4_4
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_4_1/Claw_Pipe_4_2/Claw_Pipe_4_3/Claw_Pipe_4_4/Claw_Pipe_4_5
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Arm_21/Hand_L/Claw_Pipe_4_1/Claw_Pipe_4_2/Claw_Pipe_4_3/Claw_Pipe_4_4/Claw_Pipe_4_5/Claw_Pipe_4_end
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Heel_Roll_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Heel_Roll_L/Foot_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Heel_Roll_L/Foot_L/Toes_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Heel_Roll_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Heel_Roll_R/Foot_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Heel_Roll_R/Foot_R/Toes_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Hip_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Hip_L/Thigh_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Hip_L/Thigh_L/Shin_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Hip_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Hip_R/Thigh_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Hip_R/Thigh_R/Shin_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_L/Shoulder_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_L/Shoulder_L/Arm_1_Locked
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Index_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Index_1_R/Index_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Index_1_R/Index_2_R/Index_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Pinky_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Pinky_1_R/Pinky_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Pinky_1_R/Pinky_2_R/Pinky_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Thumb_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Thumb_1_R/Thumb_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Collar_R/Shoulder_R/Bicep_R/Forarm_R/Hand_R/Thumb_1_R/Thumb_2_R/Thumb_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Antenna_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Antenna_1_L/Antenna_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Antenna_1_L/Antenna_2_L/Antenna_3_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Antenna_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Antenna_1_R/Antenna_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Antenna_1_R/Antenna_2_R/Antenna_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_3_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_4_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Cheek_4_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Ear_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Ear_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Eye_L
+    m_Weight: 1
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Eye_R
+    m_Weight: 1
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Eyelid_Top_L
+    m_Weight: 1
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Eyelid_Top_R
+    m_Weight: 1
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/EyelidBot_L
+    m_Weight: 1
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/EyelidBot_R
+    m_Weight: 1
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Bottom_Lip_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Brow
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0_3_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_0_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_1
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_1_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_1_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_2_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_2_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_2_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Chin_2_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Corner_Mouth_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Corner_Mouth_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Corner_Mouth_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Corner_Mouth_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Eye_Under_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Eye_Under_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Eye_Under_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Eye_Under_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Eye_Under_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Eye_Under_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_0_11_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_0_11_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_EyeBrow_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Goatee_0
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Goatee_0_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Goatee_0_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Goatee_0_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Goatee_0_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Nose
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_0
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Face_Top_Lip_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Bottom_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Bottom_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Bottom_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Bottom_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Top_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Top_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Top_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Front_Tooth_Top_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Bottom_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Bottom_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Bottom_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Bottom_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Bottom_3_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Bottom_3_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Top_0_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Top_0_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Top_1_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Top_1_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Top_2_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Side_Tooth_Top_2_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Tempol_L
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Tempol_R
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Toung_0
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Toung_0/Toung_1
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Toung_0/Toung_1/Toung_2
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Toung_0/Toung_1/Toung_2/Toung_3
+    m_Weight: 0
+  - m_Path: Player_Skeleton/Root_Bone/Hip_Controller/Pelvis/Spine/Chest/Neck/Head/Toung_0/Toung_1/Toung_2/Toung_3/Toung_Tip
+    m_Weight: 0

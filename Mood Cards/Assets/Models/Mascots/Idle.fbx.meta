@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 515bd3311a239f542b7351318f2560a5
+timeCreated: 1510518849
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Base
+    100002: FinalPrey
+    100004: Head_Base
+    100006: //RootNode
+    100008: Jaw_Base
+    100010: Jaw_Front
+    100012: joint1
+    100014: joint2
+    100016: Left_Front_Ankle
+    100018: Left_Front_HoofBase
+    100020: Left_Front_Knee
+    100022: Left_Front_LegTop
+    100024: Left_Front_Shoulder
+    100026: Left_Rear_Ankle
+    100028: Left_Rear_Hip
+    100030: Left_Rear_HoofBase
+    100032: Left_Rear_Knee
+    100034: Left_Rear_Leg_Front
+    100036: Left_Rear_LegTop
+    100038: Left_Rear_LowerKnee
+    100040: Lower_Spine
+    100042: Mid_Spine
+    100044: Neck_Base
+    100046: Neck_Mid
+    100048: Neck_Top
+    100050: Right_Front_Ankle
+    100052: Right_Front_HoofBase
+    100054: Right_Front_Knee
+    100056: Right_Front_LegTop
+    100058: Right_Front_Shoulder
+    100060: Right_Rear_Ankle
+    100062: Right_Rear_Hip
+    100064: Right_Rear_HoofBase
+    100066: Right_Rear_Knee
+    100068: Right_Rear_Leg_Front
+    100070: Right_Rear_LegTop
+    100072: Right_Rear_LowerKnee
+    100074: Shoulders
+    100076: Top_Head
+    100078: Top_Head_Front
+    400000: Base
+    400002: FinalPrey
+    400004: Head_Base
+    400006: //RootNode
+    400008: Jaw_Base
+    400010: Jaw_Front
+    400012: joint1
+    400014: joint2
+    400016: Left_Front_Ankle
+    400018: Left_Front_HoofBase
+    400020: Left_Front_Knee
+    400022: Left_Front_LegTop
+    400024: Left_Front_Shoulder
+    400026: Left_Rear_Ankle
+    400028: Left_Rear_Hip
+    400030: Left_Rear_HoofBase
+    400032: Left_Rear_Knee
+    400034: Left_Rear_Leg_Front
+    400036: Left_Rear_LegTop
+    400038: Left_Rear_LowerKnee
+    400040: Lower_Spine
+    400042: Mid_Spine
+    400044: Neck_Base
+    400046: Neck_Mid
+    400048: Neck_Top
+    400050: Right_Front_Ankle
+    400052: Right_Front_HoofBase
+    400054: Right_Front_Knee
+    400056: Right_Front_LegTop
+    400058: Right_Front_Shoulder
+    400060: Right_Rear_Ankle
+    400062: Right_Rear_Hip
+    400064: Right_Rear_HoofBase
+    400066: Right_Rear_Knee
+    400068: Right_Rear_Leg_Front
+    400070: Right_Rear_LegTop
+    400072: Right_Rear_LowerKnee
+    400074: Shoulders
+    400076: Top_Head
+    400078: Top_Head_Front
+    4300000: FinalPrey
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: FinalPrey
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FinalPrey_MAT1
+    second: {fileID: 2100000, guid: e503ffea046af944a9b3b7c90c69f551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plants1
+    second: {fileID: 2100000, guid: 7e43fe6dd3516b64d9cd9bc50816d748, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

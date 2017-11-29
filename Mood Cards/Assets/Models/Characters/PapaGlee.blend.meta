@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: dc2263fa491b8504c9617ed821b24dae
+timeCreated: 1502838833
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cape_back_1
+    100002: cape_back_2
+    100004: cape_back_3
+    100006: cape_front_1
+    100008: cape_front_2
+    100010: cape_front_3
+    100012: Char_Joy
+    100014: chest
+    100016: face_main
+    100018: head
+    100020: hips
+    100022: Horns_Handle
+    100024: L_cape_1
+    100026: L_cape_2
+    100028: L_cape_3
+    100030: L_cape_back_1
+    100032: L_cape_back_2
+    100034: L_cape_back_3
+    100036: L_cape_front_1
+    100038: L_cape_front_2
+    100040: L_cape_front_3
+    100042: L_foot
+    100044: L_horn_1
+    100046: L_horn_2
+    100048: L_horn_3
+    100050: L_Horn_Handle
+    100052: L_knee
+    100054: L_leg
+    100056: L_Leg_IKHandle
+    100058: L_Leg_Pole
+    100060: //RootNode
+    100062: Plane
+    100064: R_arm
+    100066: R_cape_1
+    100068: R_cape_2
+    100070: R_cape_3
+    100072: R_cape_back_1
+    100074: R_cape_back_2
+    100076: R_cape_back_3
+    100078: R_cape_front_1
+    100080: R_cape_front_2
+    100082: R_cape_front_3
+    100084: R_foot
+    100086: R_hand
+    100088: R_horn_1
+    100090: R_horn_2
+    100092: R_horn_3
+    100094: R_Horn_Handle
+    100096: R_knee
+    100098: R_leg
+    100100: R_Leg_IKHandle
+    100102: R_Leg_Pole
+    100104: R_wrist
+    100106: Rig_Joy
+    100108: root
+    100110: test_base
+    100112: test_contrl
+    400000: cape_back_1
+    400002: cape_back_2
+    400004: cape_back_3
+    400006: cape_front_1
+    400008: cape_front_2
+    400010: cape_front_3
+    400012: Char_Joy
+    400014: chest
+    400016: face_main
+    400018: head
+    400020: hips
+    400022: Horns_Handle
+    400024: L_cape_1
+    400026: L_cape_2
+    400028: L_cape_3
+    400030: L_cape_back_1
+    400032: L_cape_back_2
+    400034: L_cape_back_3
+    400036: L_cape_front_1
+    400038: L_cape_front_2
+    400040: L_cape_front_3
+    400042: L_foot
+    400044: L_horn_1
+    400046: L_horn_2
+    400048: L_horn_3
+    400050: L_Horn_Handle
+    400052: L_knee
+    400054: L_leg
+    400056: L_Leg_IKHandle
+    400058: L_Leg_Pole
+    400060: //RootNode
+    400062: Plane
+    400064: R_arm
+    400066: R_cape_1
+    400068: R_cape_2
+    400070: R_cape_3
+    400072: R_cape_back_1
+    400074: R_cape_back_2
+    400076: R_cape_back_3
+    400078: R_cape_front_1
+    400080: R_cape_front_2
+    400082: R_cape_front_3
+    400084: R_foot
+    400086: R_hand
+    400088: R_horn_1
+    400090: R_horn_2
+    400092: R_horn_3
+    400094: R_Horn_Handle
+    400096: R_knee
+    400098: R_leg
+    400100: R_Leg_IKHandle
+    400102: R_Leg_Pole
+    400104: R_wrist
+    400106: Rig_Joy
+    400108: root
+    400110: test_base
+    400112: test_contrl
+    2100000: Joy_Face
+    2100002: BodyBase__Joy_Diffuse
+    2100004: Joy_Face__Joy_Diffuse
+    2100006: Joy__Joy_Diffuse
+    2100008: BodyBase_001__Joy_Diffuse
+    4300000: Plane
+    4300002: Char_Joy
+    7400000: Default Take
+    7400002: WeightTest
+    9500000: //RootNode
+    13700000: Char_Joy
+    13700002: Plane
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    autoMapExternalMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

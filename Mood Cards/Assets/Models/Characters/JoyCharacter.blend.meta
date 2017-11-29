@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 5ef02083eb45ea848a4b2e6a4d8bf6d3
+timeCreated: 1495664445
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cape_back_1
+    100002: cape_back_2
+    100004: cape_back_3
+    100006: cape_front_1
+    100008: cape_front_2
+    100010: cape_front_3
+    100012: Char_Joy
+    100014: chest
+    100016: face_main
+    100018: head
+    100020: hips
+    100022: Horns_Handle
+    100024: //RootNode
+    100026: L_arm
+    100028: L_cape_1
+    100030: L_cape_2
+    100032: L_cape_3
+    100034: L_cape_back_1
+    100036: L_cape_back_2
+    100038: L_cape_back_3
+    100040: L_cape_front_1
+    100042: L_cape_front_2
+    100044: L_cape_front_3
+    100046: L_foot
+    100048: L_hand
+    100050: L_horn_1
+    100052: L_horn_2
+    100054: L_horn_3
+    100056: L_Horn_Handle
+    100058: L_knee
+    100060: L_leg
+    100062: L_Leg_IKHandle
+    100064: L_Leg_Pole
+    100066: L_wrist
+    100068: Plane
+    100070: R_arm
+    100072: R_cape_1
+    100074: R_cape_2
+    100076: R_cape_3
+    100078: R_cape_back_1
+    100080: R_cape_back_2
+    100082: R_cape_back_3
+    100084: R_cape_front_1
+    100086: R_cape_front_2
+    100088: R_cape_front_3
+    100090: R_foot
+    100092: R_hand
+    100094: R_horn_1
+    100096: R_horn_2
+    100098: R_horn_3
+    100100: R_Horn_Handle
+    100102: R_knee
+    100104: R_leg
+    100106: R_Leg_IKHandle
+    100108: R_Leg_Pole
+    100110: R_wrist
+    100112: Rig_Joy
+    100114: root
+    100116: test_base
+    100118: test_contrl
+    400000: cape_back_1
+    400002: cape_back_2
+    400004: cape_back_3
+    400006: cape_front_1
+    400008: cape_front_2
+    400010: cape_front_3
+    400012: Char_Joy
+    400014: chest
+    400016: face_main
+    400018: head
+    400020: hips
+    400022: Horns_Handle
+    400024: //RootNode
+    400026: L_arm
+    400028: L_cape_1
+    400030: L_cape_2
+    400032: L_cape_3
+    400034: L_cape_back_1
+    400036: L_cape_back_2
+    400038: L_cape_back_3
+    400040: L_cape_front_1
+    400042: L_cape_front_2
+    400044: L_cape_front_3
+    400046: L_foot
+    400048: L_hand
+    400050: L_horn_1
+    400052: L_horn_2
+    400054: L_horn_3
+    400056: L_Horn_Handle
+    400058: L_knee
+    400060: L_leg
+    400062: L_Leg_IKHandle
+    400064: L_Leg_Pole
+    400066: L_wrist
+    400068: Plane
+    400070: R_arm
+    400072: R_cape_1
+    400074: R_cape_2
+    400076: R_cape_3
+    400078: R_cape_back_1
+    400080: R_cape_back_2
+    400082: R_cape_back_3
+    400084: R_cape_front_1
+    400086: R_cape_front_2
+    400088: R_cape_front_3
+    400090: R_foot
+    400092: R_hand
+    400094: R_horn_1
+    400096: R_horn_2
+    400098: R_horn_3
+    400100: R_Horn_Handle
+    400102: R_knee
+    400104: R_leg
+    400106: R_Leg_IKHandle
+    400108: R_Leg_Pole
+    400110: R_wrist
+    400112: Rig_Joy
+    400114: root
+    400116: test_base
+    400118: test_contrl
+    4300000: Plane
+    4300002: Char_Joy
+    7400000: Default Take
+    7400002: WeightTest
+    7400004: WeightTest (1)
+    7400006: Joy_Defeat
+    7400008: Joy_Idle
+    7400010: Joy_PeaceReact
+    7400012: Joy_SkipCycle
+    7400014: Joy_WalkCycle
+    9500000: //RootNode
+    13700000: Char_Joy
+    13700002: Plane
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyBase__Joy_Diffuse
+    second: {fileID: 2100000, guid: c5f3306c709a11242baf4fa76e954d9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joy_Face
+    second: {fileID: 2100000, guid: d2af3c900ea765a4db6e70e70825c4d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joy_Face__Joy_Diffuse
+    second: {fileID: 2100000, guid: c5f3306c709a11242baf4fa76e954d9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joy__Joy_Diffuse
+    second: {fileID: 2100000, guid: c5f3306c709a11242baf4fa76e954d9c, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Joy_Defeat
+      takeName: Joy_Defeat
+      firstFrame: -1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Joy_Idle
+      takeName: Joy_Idle
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Joy_PeaceReact
+      takeName: Joy_PeaceReact
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Joy_WalkCycle
+      takeName: Joy_WalkCycle
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WeightTest
+      takeName: WeightTest
+      firstFrame: -1
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

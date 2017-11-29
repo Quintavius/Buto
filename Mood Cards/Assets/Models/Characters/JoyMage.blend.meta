@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 99da5e8195eba0245884d412cda1c51d
+timeCreated: 1496030300
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Char_Joy
+    100002: chest
+    100004: face_main
+    100006: head
+    100008: hips
+    100010: Horns_Handle
+    100012: //RootNode
+    100014: L_arm
+    100016: L_foot
+    100018: L_hand
+    100020: L_horn_1
+    100022: L_horn_2
+    100024: L_horn_3
+    100026: L_Horn_Handle
+    100028: L_knee
+    100030: L_leg
+    100032: L_Leg_IKHandle
+    100034: L_Leg_Pole
+    100036: L_wrist
+    100038: Plane
+    100040: R_arm
+    100042: R_foot
+    100044: R_hand
+    100046: R_horn_1
+    100048: R_horn_2
+    100050: R_horn_3
+    100052: R_Horn_Handle
+    100054: R_knee
+    100056: R_leg
+    100058: R_Leg_IKHandle
+    100060: R_Leg_Pole
+    100062: R_wrist
+    100064: Rig_Joy
+    100066: root
+    100068: test_base
+    100070: test_contrl
+    400000: Char_Joy
+    400002: chest
+    400004: face_main
+    400006: head
+    400008: hips
+    400010: Horns_Handle
+    400012: //RootNode
+    400014: L_arm
+    400016: L_foot
+    400018: L_hand
+    400020: L_horn_1
+    400022: L_horn_2
+    400024: L_horn_3
+    400026: L_Horn_Handle
+    400028: L_knee
+    400030: L_leg
+    400032: L_Leg_IKHandle
+    400034: L_Leg_Pole
+    400036: L_wrist
+    400038: Plane
+    400040: R_arm
+    400042: R_foot
+    400044: R_hand
+    400046: R_horn_1
+    400048: R_horn_2
+    400050: R_horn_3
+    400052: R_Horn_Handle
+    400054: R_knee
+    400056: R_leg
+    400058: R_Leg_IKHandle
+    400060: R_Leg_Pole
+    400062: R_wrist
+    400064: Rig_Joy
+    400066: root
+    400068: test_base
+    400070: test_contrl
+    4300000: Plane
+    4300002: Char_Joy
+    7400000: Default Take
+    7400002: PuppetDemo
+    7400004: WeightTest
+    9500000: //RootNode
+    13700000: Char_Joy
+    13700002: Plane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Joy
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Rig_Joy
+        weight: 1
+      - path: Rig_Joy/face_main
+        weight: 1
+      - path: Rig_Joy/face_main/test_base
+        weight: 1
+      - path: Rig_Joy/face_main/test_contrl
+        weight: 1
+      - path: Rig_Joy/root
+        weight: 1
+      - path: Rig_Joy/root/hips
+        weight: 1
+      - path: Rig_Joy/root/hips/chest
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle/L_Horn_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle/R_Horn_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1/L_horn_2
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1/L_horn_2/L_horn_3
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1/R_horn_2
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1/R_horn_2/R_horn_3
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm/L_wrist
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm/L_wrist/L_hand
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm/R_wrist
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm/R_wrist/R_hand
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg/L_knee
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg/L_knee/L_foot
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg/R_knee
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg/R_knee/R_foot
+        weight: 1
+      - path: Rig_Joy/root/L_Leg_IKHandle
+        weight: 1
+      - path: Rig_Joy/root/L_Leg_Pole
+        weight: 1
+      - path: Rig_Joy/root/R_Leg_IKHandle
+        weight: 1
+      - path: Rig_Joy/root/R_Leg_Pole
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PuppetDemo
+      takeName: PuppetDemo
+      firstFrame: -1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Joy
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Rig_Joy
+        weight: 1
+      - path: Rig_Joy/face_main
+        weight: 1
+      - path: Rig_Joy/face_main/test_base
+        weight: 1
+      - path: Rig_Joy/face_main/test_contrl
+        weight: 1
+      - path: Rig_Joy/root
+        weight: 1
+      - path: Rig_Joy/root/hips
+        weight: 1
+      - path: Rig_Joy/root/hips/chest
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle/L_Horn_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle/R_Horn_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1/L_horn_2
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1/L_horn_2/L_horn_3
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1/R_horn_2
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1/R_horn_2/R_horn_3
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm/L_wrist
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm/L_wrist/L_hand
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm/R_wrist
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm/R_wrist/R_hand
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg/L_knee
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg/L_knee/L_foot
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg/R_knee
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg/R_knee/R_foot
+        weight: 1
+      - path: Rig_Joy/root/L_Leg_IKHandle
+        weight: 1
+      - path: Rig_Joy/root/L_Leg_Pole
+        weight: 1
+      - path: Rig_Joy/root/R_Leg_IKHandle
+        weight: 1
+      - path: Rig_Joy/root/R_Leg_Pole
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WeightTest
+      takeName: WeightTest
+      firstFrame: -1
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Joy
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Rig_Joy
+        weight: 1
+      - path: Rig_Joy/face_main
+        weight: 1
+      - path: Rig_Joy/face_main/test_base
+        weight: 1
+      - path: Rig_Joy/face_main/test_contrl
+        weight: 1
+      - path: Rig_Joy/root
+        weight: 1
+      - path: Rig_Joy/root/hips
+        weight: 1
+      - path: Rig_Joy/root/hips/chest
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle/L_Horn_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/Horns_Handle/R_Horn_Handle
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1/L_horn_2
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/L_horn_1/L_horn_2/L_horn_3
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1/R_horn_2
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/head/R_horn_1/R_horn_2/R_horn_3
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm/L_wrist
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/L_arm/L_wrist/L_hand
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm/R_wrist
+        weight: 1
+      - path: Rig_Joy/root/hips/chest/R_arm/R_wrist/R_hand
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg/L_knee
+        weight: 1
+      - path: Rig_Joy/root/hips/L_leg/L_knee/L_foot
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg/R_knee
+        weight: 1
+      - path: Rig_Joy/root/hips/R_leg/R_knee/R_foot
+        weight: 1
+      - path: Rig_Joy/root/L_Leg_IKHandle
+        weight: 1
+      - path: Rig_Joy/root/L_Leg_Pole
+        weight: 1
+      - path: Rig_Joy/root/R_Leg_IKHandle
+        weight: 1
+      - path: Rig_Joy/root/R_Leg_Pole
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
