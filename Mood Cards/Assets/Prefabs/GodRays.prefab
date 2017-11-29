@@ -26,7 +26,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1404387577047544
 GameObject:
@@ -43,7 +43,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1963059145737754
 GameObject:
@@ -60,7 +60,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4146132475500456
 Transform:
@@ -82,8 +82,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1963059145737754}
   m_LocalRotation: {x: -0.2514178, y: 0.0120753, z: 0.00852497, w: 0.9677658}
-  m_LocalPosition: {x: 5.73, y: 3.6, z: 5.92}
-  m_LocalScale: {x: 0.2330838, y: 0.23308404, z: 0.23308404}
+  m_LocalPosition: {x: 4.587, y: 2.16, z: 6.499}
+  m_LocalScale: {x: 0.2330838, y: 0.23308407, z: 0.23308404}
   m_Children:
   - {fileID: 4655190439046194}
   - {fileID: 4146132475500456}
@@ -97,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1361020351269722}
   m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.1, z: -10.43}
+  m_LocalPosition: {x: 0, y: 0.43, z: -10.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4349132746996166}
@@ -163,7 +163,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1877197063
+  randomSeed: 1219743405
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3480,7 +3480,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1365504828
+  randomSeed: 764650856
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -6791,7 +6791,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -559363069
+  randomSeed: -1377527450
   InitialModule:
     serializedVersion: 3
     enabled: 1

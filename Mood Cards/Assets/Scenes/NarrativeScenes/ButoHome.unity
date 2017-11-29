@@ -7596,45 +7596,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4031134687302872, guid: a31d05a7eded1214c9ed197d6f8ea988,
     type: 2}
   m_PrefabInternal: {fileID: 471528280}
---- !u!21 &472272424
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 947afae4d36f1274ea2e4098262ceef6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: 372d5cfdbba57034ba396a5394c22f49, type: 3}
-        m_Scale: {x: 0.001242236, y: 0.0014285714}
-        m_Offset: {x: -0.2635246, y: 0.68549603}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &473849641 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4008090843567800, guid: 7287a8399b86f984da3263db571b6c4d,
@@ -8469,12 +8430,12 @@ Prefab:
     - target: {fileID: 224739745940958812, guid: eb67c854cae5a264ea0416588bb4bc3e,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 557.5
+      value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 224739745940958812, guid: eb67c854cae5a264ea0416588bb4bc3e,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 313.5
+      value: 319
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb67c854cae5a264ea0416588bb4bc3e, type: 2}
@@ -12775,6 +12736,45 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!21 &672187674
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 947afae4d36f1274ea2e4098262ceef6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: bfc1695fbb840c844bb6e8452594f6da, type: 3}
+        m_Scale: {x: 0.001538461, y: 0.0015384615}
+        m_Offset: {x: 1.5371804, y: 0.7323599}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &673236996 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: c2ebf17a4edf688408bfcdc5aa71d9f7, type: 3}
@@ -17607,7 +17607,7 @@ RectTransform:
   m_GameObject: {fileID: 892576693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.019}
-  m_LocalScale: {x: 0.0010222316, y: 0.0010222316, z: 0.0010222316}
+  m_LocalScale: {x: 0.0010220314, y: 0.0010220314, z: 0.0010220314}
   m_Children:
   - {fileID: 645414990}
   - {fileID: 2028947446}
@@ -26425,6 +26425,45 @@ Transform:
   m_PrefabParentObject: {fileID: 4031134687302872, guid: a31d05a7eded1214c9ed197d6f8ea988,
     type: 2}
   m_PrefabInternal: {fileID: 1104059249}
+--- !u!21 &1111297876
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI Extensions/SoftMaskShader
+  m_Shader: {fileID: 4800000, guid: 947afae4d36f1274ea2e4098262ceef6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 372d5cfdbba57034ba396a5394c22f49, type: 3}
+        m_Scale: {x: 0.0012422359, y: 0.0014285714}
+        m_Offset: {x: -0.2635245, y: 0.68549603}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _CutOff: 0
+    - _FlipAlphaMask: 0
+    - _HardBlend: 0
+    - _NoOuterClip: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1111974501
 Prefab:
   m_ObjectHideFlags: 0
@@ -45159,34 +45198,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4349132746996166, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.23308407
-      objectReference: {fileID: 0}
-    - target: {fileID: 4655190439046194, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 4655190439046194, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -10.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4655190439046194, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1404387577047544, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1963059145737754, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1361020351269722, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ece4ea5b17a921d4e9ecf4a4512d72ac, type: 2}
   m_IsPrefabParent: 0
@@ -45849,45 +45860,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4822530075881988, guid: 03231743345f28c4994ee0417b2cf230,
     type: 2}
   m_PrefabInternal: {fileID: 1445018028}
---- !u!21 &1449672733
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI Extensions/SoftMaskShader
-  m_Shader: {fileID: 4800000, guid: 947afae4d36f1274ea2e4098262ceef6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaMask:
-        m_Texture: {fileID: 2800000, guid: bfc1695fbb840c844bb6e8452594f6da, type: 3}
-        m_Scale: {x: 0.001538461, y: 0.0015384614}
-        m_Offset: {x: 1.5371804, y: 0.7323599}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _CutOff: 0
-    - _FlipAlphaMask: 0
-    - _HardBlend: 0
-    - _NoOuterClip: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1453116166 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4768784103498214, guid: 7dad91b84e358494fb0a37dc5d0a05f6,
@@ -51023,12 +50995,12 @@ Prefab:
     - target: {fileID: 224655793307749830, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 557.5
+      value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 224655793307749830, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 313.5
+      value: 319
       objectReference: {fileID: 0}
     - target: {fileID: 224655793307749830, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
@@ -51143,12 +51115,12 @@ Prefab:
     - target: {fileID: 224956148446228702, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -57.599976
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224711317384547910, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 503.00006
+      value: 503
       objectReference: {fileID: 0}
     - target: {fileID: 224956148446228702, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
@@ -51158,7 +51130,7 @@ Prefab:
     - target: {fileID: 224711317384547910, guid: 0235212193bc7f246adccc69ae8b8b74,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 803.7009
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0235212193bc7f246adccc69ae8b8b74, type: 2}
@@ -64407,12 +64379,12 @@ Prefab:
     - target: {fileID: 224102854415983252, guid: a8e3174636500a34c834aaa3faca1e1c,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 557.5
+      value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 224102854415983252, guid: a8e3174636500a34c834aaa3faca1e1c,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 313.5
+      value: 319
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a8e3174636500a34c834aaa3faca1e1c, type: 2}
@@ -65647,7 +65619,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -226992503
+  randomSeed: -1582589905
   InitialModule:
     serializedVersion: 3
     enabled: 1
