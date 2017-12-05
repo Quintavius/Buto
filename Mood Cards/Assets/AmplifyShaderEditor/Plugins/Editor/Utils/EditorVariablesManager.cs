@@ -127,7 +127,8 @@ namespace AmplifyShaderEditor
 		public static EditorVariableBool ExpandedAdditionalIncludes = new EditorVariableBool( "ASEExpandedAdditionalIncludes", " ExpandedAdditionalIncludes", false );
 		public static EditorVariableBool ExpandedCustomTags = new EditorVariableBool( "ASEExpandedCustomTags", " ExpandedCustomTags", false );
 		public static EditorVariableBool ExpandedAdditionalPragmas = new EditorVariableBool( "ASEExpandedAdditionalPragmas", " ExpandedAdditionalPragmas", false );
-		//Templates
-		public static EditorVariableBool ExpandedBlendModeModule = new EditorVariableBool( "ASEExpandedBlendModeModule", " ExpandedBlendModeModule", false );
+        public static EditorVariableBool ExpandedDependencies = new EditorVariableBool( "ASEExpandedDependencies", " ExpandedDependencies", false );
+        //Templates
+        public static EditorVariableBool ExpandedBlendModeModule = new EditorVariableBool( "ASEExpandedBlendModeModule", " ExpandedBlendModeModule", false );
 	}
 }

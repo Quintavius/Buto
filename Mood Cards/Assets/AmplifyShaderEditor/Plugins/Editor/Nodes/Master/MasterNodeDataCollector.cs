@@ -560,7 +560,8 @@ namespace AmplifyShaderEditor
 			//}
 
 			list.Sort( ( x, y ) => { return x.OrderIndex.CompareTo( y.OrderIndex ); } );
-			m_properties = IOUtils.PropertiesBegin;
+            CleanUpList( ref list );
+            m_properties = IOUtils.PropertiesBegin;
 			for ( int i = 0; i < list.Count; i++ )
 			{
 				m_properties += string.Format( IOUtils.PropertiesElement, list[ i ].PropertyName );
@@ -570,7 +571,34 @@ namespace AmplifyShaderEditor
 			return m_properties;
 		}
 
-		public void CloseProperties()
+        public string[] BuildUnformatedPropertiesStringArr()
+        {
+            List<PropertyDataCollector> list = new List<PropertyDataCollector>( m_propertiesDict.Values );
+            list.Sort( ( x, y ) => { return x.OrderIndex.CompareTo( y.OrderIndex ); } );
+            CleanUpList( ref list );
+            string[] arr = new string[ list.Count ];
+            for( int i = 0; i < list.Count; i++ )
+            {
+                arr[ i ] = list[ i ].PropertyName;
+            }
+            return arr;
+        }
+
+        public void CleanUpList( ref List<PropertyDataCollector> list )
+        {
+            if( list.Count == 0 )
+                return;
+
+            if( list[ list.Count - 1 ].PropertyName.Contains( "[Header(" ) )
+            {
+                list.RemoveAt( list.Count - 1 );
+                CleanUpList( ref list );
+            }
+                    
+        }
+
+
+        public void CloseProperties()
 		{
 			if ( m_dirtyProperties )
 			{

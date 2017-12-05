@@ -53,9 +53,7 @@ internal class ASEMaterialInspector : ShaderGUI
 		{
 			mat.SetInt( IOUtils.DefaultASEDirtyCheckId, 0 );
 			UIUtils.ForceUpdateFromMaterial();
-#if !UNITY_5_5_OR_NEWER
-			Event.current.Use();
-#endif
+			//Event.current.Use();
 		}
 
 
@@ -270,11 +268,9 @@ internal class ASEMaterialInspector : ShaderGUI
 				}
 			}
 		}
-#if UNITY_5_5_2 || UNITY_5_5_3 || UNITY_5_5_4 || UNITY_5_5_5 || UNITY_5_6_OR_NEWER
-		EditorGUILayout.Space();
+
 		EditorGUILayout.Space();
 		materialEditor.RenderQueueField();
-#endif
 #if UNITY_5_6_OR_NEWER
 		materialEditor.EnableInstancingField();
 #endif
@@ -318,7 +314,7 @@ internal class ASEMaterialInspector : ShaderGUI
 
 		base.OnMaterialPreviewSettingsGUI( materialEditor );
 
-		if( ShaderUtil.hardwareSupportsRectRenderTexture )
+		if( UnityEditor.ShaderUtil.hardwareSupportsRectRenderTexture )
 		{
 			EditorGUI.BeginChangeCheck();
 			m_targetMesh = (Mesh)EditorGUILayout.ObjectField( m_targetMesh, typeof( Mesh ), false, GUILayout.MaxWidth( 120 ) );

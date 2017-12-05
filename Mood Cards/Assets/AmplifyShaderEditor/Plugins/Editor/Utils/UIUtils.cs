@@ -1660,7 +1660,10 @@ namespace AmplifyShaderEditor
 			if( m_nodeCategoryToColor.ContainsKey( category ) )
 				return m_nodeCategoryToColor[ category ];
 
-			Debug.LogWarning( category + " category does not contain an associated color" );
+
+            if(DebugConsoleWindow.DeveloperMode) 
+			    Debug.LogWarning( category + " category does not contain an associated color" );
+
 			return m_nodeCategoryToColor[ "Default" ];
 		}
 

@@ -4606,7 +4606,13 @@ namespace AmplifyShaderEditor
 			//EditorWindow gameView = ( array.Length <= 0 ) ? null : ( ( EditorWindow ) array[ 0 ] );
 			//gameView.Repaint();
 
-			//Shader.SetGlobalFloat( "_ProjectInLinear", ( float ) ( PlayerSettings.colorSpace == ColorSpace.Linear ? 1 : 0 ) );
+			if( RenderSettings.sun != null )
+			{
+				Vector3 lightdir = -RenderSettings.sun.transform.forward;//.rotation.eulerAngles;
+				
+				Shader.SetGlobalVector( "_EditorWorldLightPos", new Vector4( lightdir.x, lightdir.y, lightdir.z, 0 ) );
+				Shader.SetGlobalColor( "_EditorLightColor", RenderSettings.sun.color.linear );
+			}
 			Shader.SetGlobalFloat( "_EditorTime", (float)m_time );
 			Shader.SetGlobalFloat( "_EditorDeltaTime", (float)deltaTime );
 		}

@@ -631,6 +631,7 @@ MonoBehaviour:
   BlockName: ToBridge
   interactionDistance: 5.61
   disableAfterTrigger: 1
+  enter: 0
 --- !u!23 &191891764
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -918,6 +919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064bdddc66cc91a4ebdb1b2dd832adc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  refreshTime: 1
 --- !u!1 &265359742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,7 +3723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1208583229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4305,6 +4307,7 @@ MonoBehaviour:
   BlockName: ToForest
   interactionDistance: 5.61
   disableAfterTrigger: 1
+  enter: 0
 --- !u!23 &1359223253
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5488,6 +5491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c162fa4ddd3c7d4b924ead6578b3426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  move: 0
   avoidPlayer: 1
   SmoothTime: 8
   MaxSpeed: 40

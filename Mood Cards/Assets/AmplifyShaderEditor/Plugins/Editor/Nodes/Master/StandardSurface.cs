@@ -230,7 +230,7 @@ namespace AmplifyShaderEditor
 		private const string DefaultShaderName = "New AmplifyShader";
 
 		private const string ShaderInputOrderStr = "Shader Input Order";
-		private const string PropertyOderFoldoutStr = " Material Properties";
+		
 
 		[SerializeField]
 		private BlendOpsHelper m_blendOpsHelper = new BlendOpsHelper();
@@ -271,7 +271,10 @@ namespace AmplifyShaderEditor
 		[SerializeField]
 		private CustomTagsHelper m_customTagsHelper = new CustomTagsHelper();
 
-		[SerializeField]
+        [SerializeField]
+        private DependenciesHelper m_dependenciesHelper = new DependenciesHelper();
+
+        [ SerializeField]
 		private StandardShaderLightModel m_currentLightModel;
 
 		[SerializeField]
@@ -343,16 +346,11 @@ namespace AmplifyShaderEditor
 		private InputPort m_tessellationPort;
 		private bool m_previousTranslucencyOn = false;
 		private bool m_previousRefractionOn = false;
-		[SerializeField]
-		private List<PropertyNode> m_propertyNodes = new List<PropertyNode>();
-
+		
 		[SerializeField]
 		private CacheNodeConnections m_cacheNodeConnections = new CacheNodeConnections();
 
-		private ReorderableList m_propertyReordableList;
-		//private int m_availableCount = 0;
-		private int m_lastCount = 0;
-
+        
 		private bool m_usingProSkin = false;
 		private GUIStyle m_inspectorFoldoutStyle;
 		private GUIStyle m_inspectorToolbarStyle;
@@ -368,7 +366,7 @@ namespace AmplifyShaderEditor
 		private InputPort m_refractionPort;
 
 		private GUIStyle m_inspectorDefaultStyle;
-		private GUIStyle m_propertyAdjustment;
+		
 
 		[SerializeField]
 		private ReordenatorNode m_maskClipReorder = null;
@@ -642,94 +640,7 @@ namespace AmplifyShaderEditor
 			}
 			EditorGUILayout.EndHorizontal();
 		}
-
-
-
-		public void InvalidateMaterialPropertyCount()
-		{
-			m_lastCount = -1;
-		}
-
-		public void DrawMaterialInputs( GUIStyle toolbarstyle )
-		{
-			Color cachedColor = GUI.color;
-			GUI.color = new Color( cachedColor.r, cachedColor.g, cachedColor.b, 0.5f );
-			EditorGUILayout.BeginHorizontal( toolbarstyle );
-			GUI.color = cachedColor;
-
-			EditorGUI.BeginChangeCheck();
-			ContainerGraph.ParentWindow.ExpandedProperties = GUILayoutToggle( ContainerGraph.ParentWindow.ExpandedProperties, PropertyOderFoldoutStr, m_inspectorFoldoutStyle );
-			if ( EditorGUI.EndChangeCheck() )
-			{
-				EditorPrefs.SetBool( "ExpandedProperties", ContainerGraph.ParentWindow.ExpandedProperties );
-			}
-
-			EditorGUILayout.EndHorizontal();
-			if ( !ContainerGraph.ParentWindow.ExpandedProperties )
-				return;
-
-			cachedColor = GUI.color;
-			GUI.color = new Color( cachedColor.r, cachedColor.g, cachedColor.b, ( EditorGUIUtility.isProSkin ? 0.5f : 0.25f ) );
-			EditorGUILayout.BeginVertical( UIUtils.MenuItemBackgroundStyle );
-			GUI.color = cachedColor;
-			List<PropertyNode> nodes = UIUtils.PropertyNodesList();
-			if ( m_propertyReordableList == null || nodes.Count != m_lastCount )
-			{
-				m_propertyNodes.Clear();
-
-				for ( int i = 0; i < nodes.Count; i++ )
-				{
-					ReordenatorNode rnode = nodes[ i ] as ReordenatorNode;
-					if ( ( rnode == null || !rnode.IsInside ) && ( !m_propertyNodes.Exists( x => x.PropertyName.Equals( nodes[ i ].PropertyName ) ) ) )
-						m_propertyNodes.Add( nodes[ i ] );
-				}
-
-				m_propertyNodes.Sort( ( x, y ) => { return x.OrderIndex.CompareTo( y.OrderIndex ); } );
-
-				m_propertyReordableList = new ReorderableList( m_propertyNodes, typeof( PropertyNode ), true, false, false, false )
-				{
-					headerHeight = 0,
-					footerHeight = 0,
-					showDefaultBackground = false,
-
-					drawElementCallback = ( Rect rect, int index, bool isActive, bool isFocused ) =>
-					{
-						EditorGUI.LabelField( rect, m_propertyNodes[ index ].PropertyInspectorName );
-					},
-
-					onReorderCallback = ( list ) =>
-					{
-						ReorderList( ref nodes );
-
-						//RecursiveLog();
-					}
-				};
-				ReorderList( ref nodes );
-
-				m_lastCount = nodes.Count;
-			}
-
-			if ( m_propertyReordableList != null )
-			{
-				if ( m_propertyAdjustment == null )
-				{
-					m_propertyAdjustment = new GUIStyle();
-					m_propertyAdjustment.padding.left = 17;
-				}
-				EditorGUILayout.BeginVertical( m_propertyAdjustment );
-				m_propertyReordableList.DoLayoutList();
-				EditorGUILayout.EndVertical();
-			}
-			EditorGUILayout.EndVertical();
-		}
-
-		public void ForceReordering()
-		{
-			List<PropertyNode> nodes = UIUtils.PropertyNodesList();
-			ReorderList( ref nodes );
-			//RecursiveLog();
-		}
-
+        
 		private void RecursiveLog()
 		{
 			List<PropertyNode> nodes = UIUtils.PropertyNodesList();
@@ -742,60 +653,7 @@ namespace AmplifyShaderEditor
 					Debug.Log( nodes[ i ].OrderIndex + " " + nodes[ i ].PropertyName );
 			}
 		}
-
-		private void ReorderList( ref List<PropertyNode> nodes )
-		{
-			// clear lock list before reordering because of multiple sf being used
-			for( int i = 0; i < nodes.Count; i++ )
-			{
-				ReordenatorNode rnode = nodes[ i ] as ReordenatorNode;
-				if( rnode != null )
-					rnode.RecursiveClear();
-			}
-
-			int propoffset = 0;
-			int count = 0;
-			for ( int i = 0; i < m_propertyNodes.Count; i++ )
-			{
-				ReordenatorNode renode = m_propertyNodes[ i ] as ReordenatorNode;
-				if ( renode != null )
-				{
-					if ( !renode.IsInside )
-					{
-						m_propertyNodes[ i ].OrderIndex = count + propoffset;
-
-						if ( renode.PropertyListCount > 0 )
-						{
-							propoffset += renode.RecursiveCount();
-							// the same reordenator can exist multiple times, apply ordering to all of them
-							for( int j = 0; j < nodes.Count; j++ )
-							{
-								ReordenatorNode pnode = ( nodes[ j ] as ReordenatorNode );
-								if( pnode != null && pnode.PropertyName.Equals( renode.PropertyName ) )
-								{
-									pnode.OrderIndex = renode.RawOrderIndex;
-									pnode.RecursiveSetOrderOffset( renode.RawOrderIndex, true );
-								}
-							}
-						}
-						else
-						{
-							count++;
-						}
-					}
-					else
-					{
-						m_propertyNodes[ i ].OrderIndex = 0;
-					}
-				}
-				else
-				{
-					m_propertyNodes[ i ].OrderIndex = count + propoffset;
-					count++;
-				}
-			}
-		}
-
+        
 		public void DrawGeneralOptions()
 		{
 			EditorGUI.BeginChangeCheck();
@@ -1015,7 +873,7 @@ namespace AmplifyShaderEditor
 					EditorGUILayout.EndVertical();
 				}
 
-				m_stencilBufferHelper.Draw( this, m_inspectorToolbarStyle );
+				m_stencilBufferHelper.Draw( this );
 				m_tessOpHelper.Draw( this, m_inspectorToolbarStyle, m_currentMaterial, m_tessellationPort.IsConnected );
 				m_outlineHelper.Draw( this, m_inspectorToolbarStyle, m_currentMaterial );
 				m_billboardOpHelper.Draw( this );
@@ -1025,7 +883,8 @@ namespace AmplifyShaderEditor
 				m_additionalIncludes.Draw( this );
 				m_additionalPragmas.Draw( this );
 				m_customTagsHelper.Draw( this );
-				DrawMaterialInputs( m_inspectorToolbarStyle );
+                m_dependenciesHelper.Draw( this );
+                DrawMaterialInputs( m_inspectorToolbarStyle );
 			}
 
 			EditorGUILayout.EndVertical();
@@ -2173,7 +2032,15 @@ namespace AmplifyShaderEditor
 
 							//Add GI function
 							ShaderBody += "\t\tinline void Lighting" + m_currentLightModel.ToString() + Constants.CustomLightStructStr + "_GI(" + outputStruct + " " + Constants.CustomLightOutputVarStr + ", UnityGIInput data, inout UnityGI gi )\n\t\t{\n";
-							ShaderBody += "\t\t\tUNITY_GI(gi, " + Constants.CustomLightOutputVarStr + ", data);\n";
+
+							ShaderBody += "\t\t\t#if defined(UNITY_PASS_DEFERRED) && UNITY_ENABLE_REFLECTION_BUFFERS\n";
+							ShaderBody += "\t\t\t\tgi = UnityGlobalIllumination(data, " + Constants.CustomLightOutputVarStr + ".Occlusion, " + Constants.CustomLightOutputVarStr + ".Normal);\n";
+							ShaderBody += "\t\t\t#else\n";
+							ShaderBody += "\t\t\t\tUNITY_GLOSSY_ENV_FROM_SURFACE( g, " + Constants.CustomLightOutputVarStr + ", data );\n";
+							ShaderBody += "\t\t\t\tgi = UnityGlobalIllumination( data, " + Constants.CustomLightOutputVarStr + ".Occlusion, " + Constants.CustomLightOutputVarStr + ".Normal, g );\n";
+							ShaderBody += "\t\t\t#endif\n";
+
+							//ShaderBody += "\t\t\tUNITY_GI(gi, " + Constants.CustomLightOutputVarStr + ", data);\n";
 							ShaderBody += "\t\t}\n\n";
 						}
 
@@ -2313,11 +2180,7 @@ namespace AmplifyShaderEditor
 						{
 							ShaderBody += "\t\t\t\tfloat3 worldNormal : TEXCOORD" + ( texcoordIndex++ ) + ";\n";
 						}
-#if UNITY_5_5_OR_NEWER
 						ShaderBody += "\t\t\t\tUNITY_VERTEX_INPUT_INSTANCE_ID\n";
-#else
-						ShaderBody += "\t\t\t\tUNITY_INSTANCE_ID\n";
-#endif
 						ShaderBody += "\t\t\t};\n";
 
 						ShaderBody += "\t\t\tv2f vert( appdata_full v )\n";
@@ -2476,6 +2339,11 @@ namespace AmplifyShaderEditor
 				}
 				CloseSubShaderBody( ref ShaderBody );
 
+                if( m_dependenciesHelper.HasDependencies )
+                {
+                    ShaderBody += m_dependenciesHelper.GenerateDependencies();
+                }
+
 				if ( m_fallbackHelper.Active )
 				{
 					ShaderBody += m_fallbackHelper.CreateFallbackShader();
@@ -2565,7 +2433,7 @@ namespace AmplifyShaderEditor
 				m_dummyProperty = null;
 			}
 
-			m_propertyReordableList = null;
+			
 			m_translucencyPort = null;
 			m_transmissionPort = null;
 			m_refractionPort = null;
@@ -2582,10 +2450,13 @@ namespace AmplifyShaderEditor
 			m_customTagsHelper.Destroy();
 			m_customTagsHelper = null;
 
-			m_renderingPlatformOpHelper = null;
+            m_dependenciesHelper.Destroy();
+            m_dependenciesHelper = null;
+
+            m_renderingPlatformOpHelper = null;
 			m_inspectorDefaultStyle = null;
 			m_inspectorFoldoutStyle = null;
-			m_propertyAdjustment = null;
+			
 			m_zBufferHelper = null;
 			m_stencilBufferHelper = null;
 			m_blendOpsHelper = null;
@@ -2879,6 +2750,11 @@ namespace AmplifyShaderEditor
 					m_alphaToCoverage = Convert.ToBoolean( GetCurrentParam( ref nodeParams ) );
 				}
 
+                if( UIUtils.CurrentShaderVersion() > 13903 )
+                {
+                    m_dependenciesHelper.ReadFromString( ref m_currentReadParamIdx, ref nodeParams );
+                }
+
 				m_lastLightModel = m_currentLightModel;
 				DeleteAllInputConnections( true );
 				AddMasterPorts();
@@ -2943,9 +2819,10 @@ namespace AmplifyShaderEditor
 			IOUtils.AddFieldValueToString( ref nodeInfo, ( m_tessellationReorder != null ) ? m_tessellationReorder.OrderIndex : -1 );
 			m_additionalIncludes.WriteToString( ref nodeInfo );
 			m_customTagsHelper.WriteToString( ref nodeInfo );
-			m_additionalPragmas.WriteToString( ref nodeInfo );
+            m_additionalPragmas.WriteToString( ref nodeInfo );
 			IOUtils.AddFieldValueToString( ref nodeInfo, m_alphaToCoverage );
-		}
+            m_dependenciesHelper.WriteToString( ref nodeInfo );
+        }
 
 		private bool TestCustomBlendMode()
 		{

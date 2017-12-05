@@ -473,6 +473,7 @@ namespace AmplifyShaderEditor
 			ContainerGraph.ParentWindow.CustomGraph = cachedGraph;
 
 			ParentNode newNode = ContainerGraph.CreateNode( m_function, false, Vec2Position );
+			newNode.RefreshExternalReferences();
 			newNode.ShowPreview = previewOpen;
 			if( ( newNode as FunctionNode ).m_reordenator && m_reordenator )
 				( newNode as FunctionNode ).m_reordenator.OrderIndex = m_reordenator.OrderIndex;
