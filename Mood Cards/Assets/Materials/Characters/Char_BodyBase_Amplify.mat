@@ -7,13 +7,13 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Char_BodyBase_Amplify
-  m_Shader: {fileID: 4800000, guid: a4ebb9b1782992a4ab9db160996e76c7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5dde35cabcdd6d84e916c4a7b1cfebc3, type: 3}
   m_ShaderKeywords: _ISOUTLINE_ON _IS_BLENDADDTOHICOLOR_ON _IS_BLENDADDTOMATCAP_ON
     _IS_BLENDBASECOLOR_ON _IS_LIGHTCOLOR_1ST_SHADE_ON _IS_LIGHTCOLOR_2ND_SHADE_ON
     _IS_LIGHTCOLOR_BASE_ON _IS_LIGHTCOLOR_HIGHCOLOR_ON _IS_LIGHTCOLOR_RIMLIGHT_ON
     _IS_NORMALMAPTOBASE_ON _IS_NORMALMAPTOHIGHCOLOR_ON _IS_NORMALMAPTORIMLIGHT_ON
     _IS_SPECULARTOHIGHCOLOR_ON _IS_USETWEAKHIGHCOLORONSHADOW_ON _RIMLIGHT_ON _SET_SYSTEMSHADOWSTOBASE_ON
-  m_LightmapFlags: 5
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -44,6 +44,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 0acd5974827369042b71efa22a9a1947, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: aae9da866f1076344b6caf51f5b10583, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Foam:
@@ -162,6 +166,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: 52e66a9243cdfed44b5e906f5910d35b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _UVTexture:
         m_Texture: {fileID: 2800000, guid: d611d6f49dd07344aa1277ada0f6bf6c, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -184,6 +192,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _1st2nd_Shades_Feather: 0.66
+    - _ASEOutlineWidth: 0.01
     - _Add_Antipodean_RimLight: 0
     - _AmbientLightPower: 0.5
     - _Ap_RimLight_FeatherOff: 0
@@ -248,7 +257,8 @@ Material:
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0
-    - _RimPower: 8.99
+    - _RimOffset: 0.02
+    - _RimPower: 4.41
     - _Rim_Sharpness: 10
     - _Rotate_MatCapUV: 0
     - _Rotate_NormalMapForMatCapUV: 0.07
@@ -286,6 +296,7 @@ Material:
     m_Colors:
     - _1st_ShadeColor: {r: 0.77254903, g: 0.6784314, b: 0.6431373, a: 1}
     - _2nd_ShadeColor: {r: 0.5411765, g: 0.6156863, b: 0.8039216, a: 1}
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 0, b: 0, a: 1}
