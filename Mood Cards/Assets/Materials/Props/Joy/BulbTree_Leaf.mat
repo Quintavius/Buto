@@ -7,15 +7,14 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BulbTree_Leaf
-  m_Shader: {fileID: 4800000, guid: 90da7823ded88b44f94d0b301ecf74ab, type: 3}
+  m_Shader: {fileID: 4800000, guid: e541fea1e6ea72a4c812d687cbf08ebb, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _EMISSION _ISOUTLINE_ON _IS_BLENDBASECOLOR_ON _IS_LIGHTCOLOR_1ST_SHADE_ON
     _IS_LIGHTCOLOR_2ND_SHADE_ON _IS_LIGHTCOLOR_BASE_ON _IS_NORMALMAPTOBASE_ON _SET_SYSTEMSHADOWSTOBASE_ON
-  m_LightmapFlags: 2
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -25,6 +24,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _2nd_ShadeMap:
+        m_Texture: {fileID: 2800000, guid: ffa4051f43d42d44786d74b454e69d99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
         m_Texture: {fileID: 2800000, guid: ffa4051f43d42d44786d74b454e69d99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -144,6 +147,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 183c0658d5d271744855ca64d29a7515, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _1st2nd_Shades_Feather: 0.46
     - _Add_Antipodean_RimLight: 0
@@ -241,8 +248,12 @@ Material:
     - _Tweak_SystemShadowsLevel: 0.219
     - _Tweak_transparency: 1
     - _UVSec: 0
+    - _WindBend: 0.35
+    - _WindSpeed: 0.27
+    - _WindTime: 0.131
     - _Wrapping: 1
     - _ZWrite: 1
+    - __dirty: 0
     - _isKage_Normal: 0
     - _isRim_Normal: 0
     - _node_183: 0.51
@@ -254,7 +265,7 @@ Material:
     - _2nd_ShadeColor: {r: 1, g: 1, b: 1, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.9077079, b: 0.8088235, a: 1}
     - _EmissionColor: {r: 0.5588235, g: 0.30950662, b: 0.21777682, a: 1}
     - _HighColor: {r: 0.2205882, g: 0.2205882, b: 0.2205882, a: 1}
     - _Line_Color: {r: 0.54509807, g: 0.54509807, b: 0.54509807, a: 1}
