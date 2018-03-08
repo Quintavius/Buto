@@ -7,8 +7,8 @@ Shader "WavingFoliage"
 		_Cutoff( "Mask Clip Value", Float ) = 0.5
 		_Albedo("Albedo", 2D) = "white" {}
 		_Color("Color", Color) = (1,1,1,1)
-		_WindBend("WindBend", Range( 0 , 2)) = 0
 		_WindSpeed("WindSpeed", Range( 0 , 1)) = 0
+		_WindBend("WindBend", Range( 0 , 2)) = 0
 		_WindTime("WindTime", Range( 0 , 1)) = 0
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 		[HideInInspector] __dirty( "", Int ) = 1
@@ -21,7 +21,7 @@ Shader "WavingFoliage"
 		CGPROGRAM
 		#include "UnityShaderVariables.cginc"
 		#pragma target 3.0
-		#pragma surface surf Standard keepalpha addshadow fullforwardshadows vertex:vertexDataFunc 
+		#pragma surface surf Standard keepalpha addshadow fullforwardshadows nolightmap  vertex:vertexDataFunc 
 		struct Input
 		{
 			float2 uv_texcoord;
@@ -64,16 +64,16 @@ Shader "WavingFoliage"
 	CustomEditor "ASEMaterialInspector"
 }
 /*ASEBEGIN
-Version=13901
-165;1033;1034;1004;1297.612;-118.9282;1.404865;True;True
-Node;AmplifyShaderEditor.RangedFloatNode;9;-641.5405,697.7328;Float;False;Property;_WindSpeed;WindSpeed;3;0;0;0;1;0;1;FLOAT
-Node;AmplifyShaderEditor.ColorNode;4;-599.991,95.68031;Float;False;Property;_Color;Color;2;0;1,1,1,1;0;5;COLOR;FLOAT;FLOAT;FLOAT;FLOAT
-Node;AmplifyShaderEditor.SamplerNode;2;-728.7261,-134.4274;Float;True;Property;_Albedo;Albedo;0;0;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0.0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1.0;False;5;COLOR;FLOAT;FLOAT;FLOAT;FLOAT
-Node;AmplifyShaderEditor.RangedFloatNode;11;-720.2128,546.0073;Float;False;Property;_WindTime;WindTime;3;0;0;0;1;0;1;FLOAT
-Node;AmplifyShaderEditor.RangedFloatNode;10;-928.1326,1178.196;Float;False;Property;_WindBend;WindBend;3;0;0;0;2;0;1;FLOAT
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;5;-280.0374,-19.51061;Float;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR
-Node;AmplifyShaderEditor.FunctionNode;8;-423.7863,367.5895;Float;False;SimpleWindFunction;-1;;1;23cea30200243164aa406ca0b0b44a34;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT4
-Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;0,0;Float;False;True;2;Float;ASEMaterialInspector;0;0;Standard;WavingFoliage;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;Off;0;0;False;0;0;Custom;0.5;True;True;0;True;TreeTransparentCutout;Geometry;All;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;False;0;255;255;0;0;0;0;0;0;0;0;False;2;15;10;25;False;0.5;True;0;Zero;Zero;0;Zero;Zero;OFF;OFF;0;False;0;0,0,0,0;VertexOffset;False;Cylindrical;False;Relative;0;;-1;-1;-1;-1;0;0;0;False;16;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0.0;False;9;FLOAT;0.0;False;10;FLOAT;0.0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
+Version=14001
+67;1057;1584;900;1297.612;-118.9282;1.404865;True;True
+Node;AmplifyShaderEditor.RangedFloatNode;9;-641.5405,697.7328;Float;False;Property;_WindSpeed;WindSpeed;3;0;0;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;4;-599.991,95.68031;Float;False;Property;_Color;Color;2;0;1,1,1,1;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SamplerNode;2;-728.7261,-134.4274;Float;True;Property;_Albedo;Albedo;1;0;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0.0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1.0;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.RangedFloatNode;11;-720.2128,546.0073;Float;False;Property;_WindTime;WindTime;5;0;0;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;10;-928.1326,1178.196;Float;False;Property;_WindBend;WindBend;4;0;0;0;2;0;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;5;-280.0374,-19.51061;Float;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.FunctionNode;8;-423.7863,367.5895;Float;False;SimpleWindFunction;-1;;1;23cea30200243164aa406ca0b0b44a34;3;0;FLOAT;0.0;False;1;FLOAT;0.0;False;2;FLOAT;0.0;False;1;FLOAT4;0
+Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;0,0;Float;False;True;2;Float;ASEMaterialInspector;0;0;Standard;WavingFoliage;False;False;False;False;False;False;True;False;False;False;False;False;False;False;False;False;False;Off;0;0;False;0;0;Custom;0.5;True;True;0;True;TreeTransparentCutout;Geometry;All;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;True;False;0;255;255;0;0;0;0;0;0;0;0;False;2;15;10;25;False;0.5;True;0;Zero;Zero;0;Zero;Zero;OFF;OFF;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;0;-1;-1;-1;0;0;0;False;0;16;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0.0;False;4;FLOAT;0.0;False;5;FLOAT;0.0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0.0;False;9;FLOAT;0.0;False;10;FLOAT;0.0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 WireConnection;5;0;2;0
 WireConnection;5;1;4;0
 WireConnection;8;0;9;0
@@ -83,4 +83,4 @@ WireConnection;0;0;5;0
 WireConnection;0;10;2;4
 WireConnection;0;11;8;0
 ASEEND*/
-//CHKSM=2F057B68FF91DA77204E9269F999FCA65665B0EF
+//CHKSM=EC82C8278CD3394E0DFC1F27CEC771D8D69901C9
