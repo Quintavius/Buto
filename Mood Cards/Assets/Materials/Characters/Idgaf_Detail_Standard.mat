@@ -137,7 +137,7 @@ Material:
     - _BaseTexContrast: 0.38
     - _BaseTexPower: 0.34
     - _Blightness: 0.67
-    - _BumpScale: 2.53
+    - _BumpScale: 3.82
     - _Contrast: 0.12
     - _CullMode: 2
     - _Cutoff: 0.5
@@ -219,7 +219,7 @@ Material:
     - _2nd_ShadeColor: {r: 0.616, g: 0.616, b: 0.616, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
+    - _Color: {r: 0.60294116, g: 0.5586072, b: 0.5586072, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighColor: {r: 0, g: 0, b: 0, a: 1}
     - _Line_Color: {r: 0.54509807, g: 0.54509807, b: 0.54509807, a: 1}
